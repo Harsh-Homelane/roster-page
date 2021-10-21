@@ -180,6 +180,84 @@ export default class LeftBody extends Component {
                         </a>
                     </div>
                 </div>
+                <div className="d-flex flex-column">
+                    <div className="hold-details">Hold Details</div>
+                    <div className="d-flex">
+                        <div className="d-flex flex-row justify-content-between hold-detail-box">
+                            <div className="d-flex flex-row">
+                                <div className="hold-details-column-sm">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        S.No.
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        1
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-sm">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Start date
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        2021-10-12
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-sm">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        End date
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        -
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-sm">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Person
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        test OPS
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-sm">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Days
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        9
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-lg">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Email
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        no
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-lg">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Reason
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        Internal Cancellation Request Raised
+                                    </div>
+                                </div>
+                                <div className="hold-details-column-ls">
+                                    <div className="hold-details-top-row d-flex align-items-center">
+                                        Comments
+                                    </div>
+                                    <div className="hold-details-bottom-row d-flex align-items-center">
+                                        The customer has relocated to another
+                                        city.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hold-days">
+                            <div className="hold-days-text">Hold Days</div>
+                            <div className="hold-days-count">9</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }

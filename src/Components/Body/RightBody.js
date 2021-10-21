@@ -227,6 +227,10 @@ export default class RightBody extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="right-footer">
+                    <i class="fa fa-couch"></i>
+                    Order was signed off on 11 Oct 2021
+                </div>
             </div>
         );
     }

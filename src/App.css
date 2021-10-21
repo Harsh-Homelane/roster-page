@@ -140,7 +140,6 @@ button:focus {
 }
 
 .lower-body {
-    height: 1000px;
     position: relative;
     top: 260px;
 }
@@ -530,7 +529,7 @@ button:focus {
 }
 
 .container {
-  margin-top: -15px;
+    margin-top: -15px;
 }
 
 .percentage-progress-a {
@@ -555,4 +554,70 @@ button:focus {
 .progress-lines {
     color: black;
     margin-top: -20px;
+}
+
+.hold-details {
+    margin-top: 10px;
+    padding: 16px 8px 10px;
+    font-size: 14px;
+    color: #484948;
+    border-top: 1px solid rgb(202, 202, 202);
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.hold-detail-box {
+    width: 80%;
+    font-size: 12px;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.hold-details-top-row {
+    height: 40px;
+    color: #606060;
+    padding: 5px 0 5px 5px;
+}
+
+.hold-details-bottom-row {
+    height: 70px;
+    color: #676767;
+    padding: 5px 0 5px 5px;
+}
+
+.hold-details-column-sm {
+    width: 11%;
+}
+
+.hold-details-column-lg {
+    width: 15%;
+}
+
+.hold-days {
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.hold-days-text {
+    font-size: 12px;
+}
+
+.hold-days-count {
+    margin-top: 20px;
+    font-size: 42px;
+}
+
+.right-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 15px 30px;
+  height: 57px;
+  background-color: white;
+  color: #9b9b9b;
+}
+
+body{
+  overflow-x: hidden;
 }
